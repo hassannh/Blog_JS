@@ -13,3 +13,5 @@ link : https://lucid.app/lucidchart/da27cf93-c1de-4a0e-9105-0d62095a292d/edit?vi
 Jira software : 
 
 link : 
+
+https://gitnova.atlassian.net/jira/software/projects/BLOG/boards/6/backlog
