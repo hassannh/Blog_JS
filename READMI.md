@@ -15,3 +15,12 @@ Jira software :
 link : 
 
 https://gitnova.atlassian.net/jira/software/projects/BLOG/boards/6/backlog
+
+
+
+
+figma maquette design : 
+
+link : 
+
+https://www.figma.com/file/n6pV6dTdf69ZK9WY94S17O/Untitled?type=design&mode=design&t=SD25r2SyBwUOU3et-1
