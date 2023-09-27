@@ -1,21 +1,42 @@
+
+
 const express = require('express');
+const path = require('path');
+
 const app = express();
 const port = 5000;
- // Import the 'ejs' module
 
 
+ 
 
-
-app.set('view engine', 'ejs'); // Set the view engine to 'ejs'
-
+app.set('views',path.join(__dirname ,'views'))
+app.set('view engine', 'ejs');
 
 
 
 app.get('/', (req, res) => {
-
    
     res.render('index');
-    console.log(res);
 });
 
+
+
+app.get('/post', (req, res) => {
+   
+    res.render('post');
+});
+
+
+app.get('/category', (req, res) => {
+   
+    res.render('category');
+});
+
+
+
 app.listen(port, () => console.log(`The app is running on port ${port}`));
+
+
+
+
+module.exports = app;
