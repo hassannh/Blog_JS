@@ -9,13 +9,13 @@ CREATE TABLE category (
 );
 
 
-CREATE TABLE blog (
+CREATE TABLE post (
     id INT AUTO_INCREMENT PRIMARY KEY,
     title VARCHAR(255) NOT NULL,
     description TEXT,
     date DATE,
     author VARCHAR(255),
-    picture VARCHAR(255) -- Assuming you store the picture file path
+    picture VARCHAR(255) 
 );
 
 
